@@ -148,7 +148,7 @@ soupsieve==2.6
 stack-data==0.6.3
 streamlit==1.41.1
 tenacity==9.0.0
-tensorboard==2.17.1
+tensorboard==2.15.1
 tensorboard-data-server==0.7.2
 tensorflow==2.15.0
 tensorflow-io-gcs-filesystem==0.31.0
