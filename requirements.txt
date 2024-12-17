@@ -38,8 +38,8 @@ fsspec==2024.10.0
 gast==0.6.0
 gitdb==4.0.11
 GitPython==3.1.43
-google-ai-generativelanguage==0.6.10
-google-api-core==2.24.0
+google-ai-generativelanguage==0.5.0
+google-api-core==2.14.0
 google-api-python-client==2.155.0
 google-auth==2.37.0
 google-auth-httplib2==0.2.0
@@ -48,7 +48,7 @@ google-pasta==0.2.0
 googleapis-common-protos==1.66.0
 groq==0.13.1
 grpcio==1.68.1
-grpcio-status==1.68.1
+grpcio-status==1.48.2
 h11==0.14.0
 h5py==3.12.1
 httpcore==1.0.7
@@ -116,13 +116,13 @@ pillow==11.0.0
 platformdirs==4.3.6
 prometheus_client==0.21.1
 prompt_toolkit==3.0.48
+protobuf==4.23.4
 proto-plus==1.25.0
 psutil==6.1.0
 pure_eval==0.2.3
 pyarrow==18.1.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
-protobuf==4.21.0
 pycparser==2.22
 pydantic==2.10.3
 pydantic_core==2.27.1
