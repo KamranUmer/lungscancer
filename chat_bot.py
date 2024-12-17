@@ -7,8 +7,8 @@ from langchain_groq import ChatGroq
 
 
 
-os.environ["GOOGLE_API_KEY"]= st.secrets['GOOGLE_API_KEY']
-GROQ_API = st.secrets['GOOGLE_API_KEY']
+os.environ["GROQ_API"]= st.secrets['GROQ_API']
+GROQ_API = st.secrets['GROQ_API']
 llm = ChatGroq(temperature=0,
                model_name="Llama3-70b-8192",
                api_key=GROQ_API,
