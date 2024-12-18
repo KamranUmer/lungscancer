@@ -7,8 +7,12 @@ from langchain_groq import ChatGroq
 
 
 
-os.environ["GROQ_API"]= st.secrets['GROQ_API']
-GROQ_API = st.secrets['GROQ_API']
+# os.environ["GROQ_API"]= st.secrets['GROQ_API']
+# GROQ_API = st.secrets['GROQ_API']
+# os.environ["GROQ_API"]= os.getenv("GROQ_API")
+# GROQ_API = os.getenv("GROQ_API")
+
+
 llm = ChatGroq(temperature=0,
                model_name="Llama3-70b-8192",
                api_key=GROQ_API,
