@@ -104,13 +104,6 @@ class Ui:
     def chat_bot_interface(self):
         chat()
 
-    # def show_prediction_image(self, image, label, confidence):
-    #     """
-    #     Display the prediction result directly on the main screen.
-    #     """
-    #     if image is not None:
-    #         st.image(image, caption=f"Prediction: {label} | Accuracy : {confidence:.2f}%")
-
 
 # ------------------------------------------------------------------------------------
 # Main Functionality
