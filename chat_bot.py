@@ -7,8 +7,8 @@ from langchain_groq import ChatGroq
 
 
 
-# os.environ["GROQ_API"]= st.secrets['GROQ_API']
-# GROQ_API = st.secrets['GROQ_API']
+os.environ["GROQ_API"]= st.secrets['GROQ_API']
+GROQ_API = st.secrets['GROQ_API']
 # os.environ["GROQ_API"]= os.getenv("GROQ_API")
 # GROQ_API = os.getenv("GROQ_API")
 
